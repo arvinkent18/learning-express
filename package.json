@@ -1,0 +1,36 @@
+{
+  "name": "@k.lazaga/learn-express",
+  "version": "1.0.0",
+  "description": "Learning Express.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvinkent18/learning-express.git"
+  },
+  "keywords": [
+    "express.js"
+  ],
+  "author": "Arvin Kent S. Lazaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvinkent18/learning-express/issues"
+  },
+  "homepage": "https://github.com/arvinkent18/learning-express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2"
+  }
+}
